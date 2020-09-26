@@ -1,0 +1,19 @@
+## How to merge the forked branch in Github
+
+If you are working on an open-source, you might need to create a fork out of the project. Over a period of time, you might diverge from the base branch of the project and might want to sync it, following the git command may help you to do so:
+
+1. Fetch upstream from the original repo, it will bring all tags and change tracker 
+
+``` 
+git fetch upstream
+
+``` 
+2. Checkout the master/main branch in the forked repository and merge from the upstream master/main branch as follows 
+
+```
+git merge upstream/master
+
+```
+
+That is it.
+Happy gitting
