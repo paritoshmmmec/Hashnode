@@ -40,4 +40,4 @@ Solution:
     
 ``` 
 
-The relative file path from the root may look like `src/KafkaFlow.Autofac.DependencyInjection/AutofacDependencyConfigurator.cs`
+The relative file path from the root may look like `src/AutofacDependencyConfigurator.cs`
