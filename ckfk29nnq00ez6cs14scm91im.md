@@ -8,6 +8,7 @@ If you are working on an open-source, you might need to create a fork out of the
 git fetch upstream
 
 ``` 
+
 2. Checkout the master/main branch in the forked repository and merge from the upstream master/main branch as follows 
 
 ```
