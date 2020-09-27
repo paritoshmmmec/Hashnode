@@ -33,10 +33,11 @@ Problem: Some time working on a branch, some file(s) I touched which were not re
 
 Solution: 
 
--  Next is the checkout main/master and run the following command. Be care full there is no revert here
+-  Run the following command will reset a single file from the origin master or main branch. Please note there is a space between `--` and file path. The file path is relative to the root folder of the project.
 
 ```
- git checkout origin/master -- <relative file path from root>
+ git checkout origin/master  --  file-path
     
 ``` 
-The relative file path from the root may look like `public/js/index.js`
+
+The relative file path from the root may look like `src/KafkaFlow.Autofac.DependencyInjection/AutofacDependencyConfigurator.cs`
