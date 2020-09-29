@@ -54,7 +54,7 @@ git fetch && git merge origin/main
 ** Checkout colleague branch **
 
 ```
-git fetch && git checkout <collegau-name>
+git fetch && git checkout <colleague-branch-name>
 
 ```
 
