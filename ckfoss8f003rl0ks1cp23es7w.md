@@ -40,4 +40,6 @@ To solve the disk corruption problem Kafka adopted the replication model. It cre
 Let us say you have created a topic with 3 partitions and 2 replications. it will store each incoming message at 2 more places to ensure the safety of data. This feature adds lots of resiliency in your application design as you have reduced the loss of message. 
 
 
-Good night
+I will be writing more about Kafka in the future too. Stay tuned.
+
+Please do leave feedback. All comments are welcome. 
